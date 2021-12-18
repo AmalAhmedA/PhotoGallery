@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body-container">
+  <div class="navtop" id="navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="work.html">Photos</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
+  </div>
+  <div class="row">
+    <article class="column">
+      <h2 class="title">Welcome to my Modest Photo Website</h2>
+      <p class="text">I am a Computer Science graduate, I studied different subjects through my  IT education, such as database adminstration, system analysis and design, systems, networks security; however, my interest is in web development (full-stack development). I enjoy photography, graphic design, drawing, cooking and do not be supersied that I also like embroidery.
+        <br>
+        <br>
+        This website illustrates some of my modest photos that I have been taking every now and then. You can have a glimps of my photos in this page with more photos once you click up in the photos section. Slide and enjoy!!</p>
+  </article>
+  <div class="column">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img class="images" src="./images/beach.JPG" alt="beach">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img class="images" src="./images/moon.JPG" alt="moon">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img class="images" src="./images/island.JPG" alt="island">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img class="images" src="./images/sunflower.JPG" alt="sunflower">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer-section">
+  <a class="links" href="#facebook"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+  <a class="links" href="#twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+  <a class="links" href="#instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+  <a class="links" href="#linkedin"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+  <span class="footer-item">&copy; 2021</span>
+</footer>
+<script src="js/photoslide.js"></script>
+</body>
+</html> 
